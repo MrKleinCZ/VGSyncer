@@ -1,6 +1,6 @@
 #RPi
 after some cleaning I'm actually on 900MB of used space and ~380MB compressed image size.
-There is alredy Apache2 with "mod_python" for possible web based config and controll.
+There is alredy Apache2 with PHP for possible web based config and controll. 
 
 #Python Libraries
 Download source "zip" or "tar.gz". Libraries containing C/C++ code must be compilled for ARM processors on Raspberry.
