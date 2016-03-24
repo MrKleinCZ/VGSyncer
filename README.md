@@ -17,4 +17,4 @@ Small (in footprint) MIDIoverUSB controller for Roland GR-55 and GP-10 (and Boss
 * Python Scripts running as "daemons" (with "python-rtmidi", "LCD" and other libraries)
 
 #License
-This project is licensed under GNU GPL (I personally "hate" it but it keeps this project free and open :-)).
+This project is licensed under GNU GPL.
