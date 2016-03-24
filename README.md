@@ -10,7 +10,11 @@ Small (in footprint) MIDIoverUSB controller for Roland GR-55 and GP-10 (and Boss
 * RaspberryPi 2
 * 20x4 LCD, 4x menu navigation buttons
 * GK signal splitter
+* optionally "LE" version with more footswitches and displays
 
 # Software
 * Raspbian Jessie (with some tweaks: slimmer image, reduced writes to SD card, etc.)
 * Python Scripts running as "daemons" (with "python-rtmidi", "LCD" and other libraries)
+
+#License
+This project is licensed under GNU GPL (I personally "hate" it but it keeps this project free and open :-)).
