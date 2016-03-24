@@ -7,7 +7,7 @@
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
 # Short-Description: VGSyncer - GP/GR controller 
-# Description:       VGSyncer - GP-10 GR-55 USB pactch syncer and controller 
+# Description:       VGSyncer - GP-10 GR-55 USB patch syncer and controller 
 ### END INIT INFO
 
 # Change the next 3 lines to suit where you install your script and what you want to call it
@@ -62,8 +62,10 @@ esac
 exit 0
 
 ##
+## copy this file to /etc/init.d
+##
 ## maybe will be required to run
-## "sudo update-rc.d vgsyncer.sh defaults 99 01"
+## "sudo update-rc.d vgsyncer defaults 99 01"
 ## it make it start last and kill first
 ##
 ## works also on "Jessie" with systemd
